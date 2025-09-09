@@ -24,29 +24,30 @@ function HeroSection() {
           </p>
         </div>
 
-        <div className="flex flex-col gap-4">
-          <div className="flex items-start gap-4">
-            <div className="gap-4">
+        <div className="flex items-start gap-4">
+          <div className="flex flex-col gap-4 flex-shrink-0">
+            <Image
+              className="rounded-tl-[50px] rounded-tr-[50px] rounded-bl-[50px]"
+              src="/boss-shaking-hand-thanking-worker-good-job-1.png"
+              alt="Hero Section Image"
+              width={434}
+              height={434}
+            />
+            <div className="flex justify-end"> 
               <Image
-                className="boss-shaking mb-4"
-                src="/boss-shaking-hand-thanking-worker-good-job-1.png"
-                alt="Hero Section Image"
-                width={434}
-                height={434}
-              />
-              <Image
-                className="laptop-image ml-auto"
+                className="rounded-tl-[50px] rounded-br-[50px] rounded-bl-[50px]"
                 src="/brunette-woman-typing-email-laptop-computer-while-sitting-home-selective-focus-hand-1.png"
                 alt="Hero Section Image"
-                width={500}
-                height={500}
+                width={241}
+                height={241}
               />
             </div>
-            <div className="flex flex-col gap-4">
-              <RedSvgIcon />
-              <BlueSvgIcon />
-              <SmallRedSvgIcon />
-            </div>
+          </div>
+
+          <div className="flex flex-col gap-5 flex-shrink-0">
+            <RedSvgIcon width={167} height={167} />
+            <BlueSvgIcon width={241} height={241} />
+            <SmallRedSvgIcon width={129} height={129} />
           </div>
         </div>
       </div>
