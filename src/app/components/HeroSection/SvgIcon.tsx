@@ -32,7 +32,7 @@ export function RedSvgIcon({
         className="absolute"
         width="81"
         height="94"
-        viewBox="0 0 81 94"
+         viewBox="-5 -5 91 104"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         style={{
@@ -41,7 +41,7 @@ export function RedSvgIcon({
           transform: "translate(-50%, -50%)",
         }}
       >
-        <g clipPath="url(#clip0_196_342)">
+        <g clipPath="url(#clip0_196_342)" transform="translate(0, 2)">
           <path
             d="M37.0541 14.4258C70.7656 14.2162 80.9997 14.4258 80.9997 14.4258V0H37.0541C-2.95864 0 0.0504597 38.2893 0.0504597 38.2893C0.0504597 38.2893 2.36802 14.6381 37.0541 14.4258Z"
             fill="white"

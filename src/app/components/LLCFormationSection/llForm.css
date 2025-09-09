@@ -1,0 +1,43 @@
+.llc-form-h {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 20px;
+
+  /* line-height: 10px; */
+  letter-spacing: 0%;
+  text-transform: capitalize;
+}
+.llc-form-p {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 15px;
+
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+}
+.llc-form-button {
+  width: 213;
+  height: 47;
+
+  opacity: 1;
+  background: rgba(255, 255, 255, 1);
+
+  border-radius: 10px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 25px;
+  color: rgba(233, 28, 36, 1);
+
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+}
+
+.llc-form-button:hover {
+    background: rgba(233, 28, 36, 1);
+    color: white;
+}

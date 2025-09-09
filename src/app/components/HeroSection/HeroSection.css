@@ -41,22 +41,3 @@
   display: inline-block;
 }
 
-.boss-shaking {
-  width: 434px;
-  height: 434px;
-
-  opacity: 1;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
-  border-bottom-left-radius: 50px;
-}
-
-.laptop-image {
-  width: 241px;
-  height: 241px;
-
-  opacity: 1;
-  border-top-left-radius: 50px;
-  border-bottom-right-radius: 50px;
-  border-bottom-left-radius: 50px;
-}
