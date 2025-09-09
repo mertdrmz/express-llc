@@ -1,0 +1,160 @@
+.pricing-page-title {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 70px;
+
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: rgba(233, 28, 36, 1);
+}
+
+.pricing-cards {
+  width: 386px;
+  height: 636px;
+  background: rgba(41, 56, 142, 1);
+  opacity: 1;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  position: relative;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.pricing-cards:hover {
+  width: 443;
+  height: 736;
+  background: rgba(255, 21, 32, 1);
+  
+  border-radius: 30px;
+  
+}
+.pricing-title {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 40px;
+  color: white;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 0;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pricing-title-description {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 25px;
+  color: white;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 0;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pricing-price {
+  width: 206px;
+  height: 81px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+  font-family: Montserrat;
+  font-weight: 800;
+  font-style: ExtraBold;
+  font-size: 35px;
+  color: rgba(233, 28, 36, 1);
+  line-height: 35px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+}
+.pricing-price-state-fee {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 35px;
+  color: rgba(233, 28, 36, 1);
+  line-height: 35px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+}
+.pricing-description {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 15px;
+  color: white;
+  line-height: 20px;
+  /* letter-spacing: 0%; */
+  /*  text-align: center; */
+  text-transform: capitalize;
+  margin: 0;
+  max-width: 300px;
+  height: 80px;
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  padding: 0 10px;
+}
+.pricing-description-list {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 15px;
+  color: white;
+  line-height: 20px;
+
+  text-transform: capitalize;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-width: 300px;
+  height: 200px;
+}
+
+.pricing-description-list li {
+  margin-bottom: 8px;
+  padding-left: 10px;
+  flex-shrink: 0;
+}
+.pricing-button {
+  width: 231px;
+  height: 56px;
+  border: 1px solid rgba(233, 28, 36, 1);
+  opacity: 1;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 20px;
+  color: white;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  border-radius: 10px;
+  border-width: 1px;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 0;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+

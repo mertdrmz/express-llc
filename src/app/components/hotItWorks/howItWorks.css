@@ -1,0 +1,83 @@
+.howItWorks-title {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 70px;
+  text-align: center;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: rgba(233, 28, 36, 1);
+}
+.content-box {
+  width: 1382px;
+  height: 288px;
+  border-radius: 30px;
+  border-width: 4px;
+  display: flex;
+  align-items: center;
+  padding: 24px 32px;
+  box-sizing: border-box;
+}
+
+.content-box-title {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 45px;
+  line-height: 75px;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: rgba(41, 56, 142, 1);
+  margin-bottom: 4px;
+}
+.content-box-description {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 40px;
+  color: rgba(41, 56, 142, 1);
+  line-height: 50px;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  margin-bottom: 4px;
+}
+.content-box-additionalInfo {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 14px;
+  color: rgba(233, 28, 36, 1);
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+}
+.circle-number {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 70px;
+  color: white;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+}
+
+/* Icon styling */
+.content-box .flex-shrink-0 svg {
+  width: 115px;
+  height: 140px;
+}
+
+/* Vertical line between circles using pseudo-element */
+.step-container:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  left: 57px; /* Circle'ın ortası */
+  top: calc(100% + 16px); /* Step container'ın altından 16px aşağıda başla */
+  width: 4px;
+  height: 150px;
+  background-color: #FF1520;
+  z-index: 1;
+  transform: translateY(-50%); /* Çizgiyi yukarı kaydır */
+}

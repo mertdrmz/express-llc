@@ -1,7 +1,11 @@
-import HeroSection from "./components/HeroSection/heroSection";
-import CtaSection from "./components/CtaSection/ctaSection";
-import LLCFormation from "./components/LLCFormationSection/llcFormation";
-import HowItWorks from "./components/hotItWorks/hotItWorks";
+import HeroSection from "./components/HeroSection/page";
+import CtaSection from "./components/CtaSection/page";
+import LLCFormation from "./components/LLCFormationSection/page";
+import HowItWorks from "./components/hotItWorks/page";
+import WhyChooseUs from "./components/WhyChooseUs/page";
+import TablePage from "./components/TabloPage/page";
+import PricingPage from "./components/PricingPage/page";
+import TrustedPage from "./components/TrustedPage/page";
 
 
 export default function Home() {
@@ -11,6 +15,10 @@ export default function Home() {
      <CtaSection/>
      <LLCFormation/>
      <HowItWorks/>
+     <WhyChooseUs/>
+     <TablePage/>
+     <PricingPage/>
+     <TrustedPage/>
     </div>
   );
 }
