@@ -59,7 +59,7 @@ function whyChooseUs() {
               <div className="svg-container">{feature.icon}</div>
               <div className="flex items-center justify-center gap-2 why-choose-us-svg-title-1">
                 <span className="w-[12px] h-[12px] mr-8 bg-[#FF1520] rounded-full"></span>
-                <h4 className="">{feature.title}</h4>
+                <h4 className="why-choose-us-h4">{feature.title}</h4>
               </div>
               <p className="why-choose-us-svg-description">
                 {feature.description}

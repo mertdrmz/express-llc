@@ -1,15 +1,11 @@
 .llc-form-h {
-  font-family: Montserrat;
   font-weight: 700;
   font-style: Bold;
   font-size: 20px;
-
-  /* line-height: 10px; */
   letter-spacing: 0%;
   text-transform: capitalize;
 }
 .llc-form-p {
-  font-family: Montserrat;
   font-weight: 400;
   font-style: Regular;
   font-size: 15px;
@@ -26,7 +22,6 @@
   background: rgba(255, 255, 255, 1);
 
   border-radius: 10px;
-  font-family: Montserrat;
   font-weight: 700;
   font-style: Bold;
   font-size: 25px;

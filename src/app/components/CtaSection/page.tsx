@@ -8,11 +8,10 @@ const styles = `
     fill: #29388E !important;
   }
   .hover-svg svg {
-    width: 84px;
-    height: 84px;
+    width: 65px;
+    height: 65px;
   }
   .cta-title {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-style: normal;
     font-size: 20px;
@@ -21,7 +20,6 @@ const styles = `
     text-transform: capitalize;
   }
   .cta-subtitle {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 20px;
@@ -30,22 +28,20 @@ const styles = `
     text-transform: capitalize;
   }
   .cta-button {
-    width: 452px;
-    height: 118px;
+    width: 400px;
+    height: 90px;
     border-radius: 15px;
     opacity: 1;
   }
   .cta-button-text {
     width: 371px;
     height: 40px;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-style: normal;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 40px;
-    letter-spacing: 0%;
+   
     text-transform: capitalize;
-    opacity: 1;
+   
   }
 `;
 
@@ -248,23 +244,21 @@ function ctaSection() {
       <style dangerouslySetInnerHTML={{ __html: styles }} />
       <div className="py-16 ">
         <div className="container">
-          {/* 4 Kart */}
+          
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
             {ctaBox.map((box, index) => (
               <div
                 key={index}
                 className={`${box.bgColor} hover:bg-[#FF1520] rounded-2xl p-6 text-white relative overflow-hidden transition-all duration-300 group hover:scale-110`}
               >
-                <div className="mb-4 hover-svg">
-                  {box.icon}
-                </div>
+                <div className="mb-4 hover-svg">{box.icon}</div>
                 <h3 className="cta-title mb-2">{box.title}</h3>
                 <p className="cta-subtitle opacity-90">{box.subtitle}</p>
               </div>
             ))}
           </div>
 
-          {/* 2 Buton */}
+          
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="cta-button bg-white border-2 border-[#29388E] text-[#29388E] hover:bg-[#29388E] hover:text-white transition-colors duration-300">
               <span className="cta-button-text">Start My Company Now</span>

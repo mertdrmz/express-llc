@@ -1,20 +1,17 @@
 .why-choose-us-title {
-  font-family: Montserrat;
   font-weight: 600;
   font-style: SemiBold;
-  font-size: 70px;
+  font-size: 60px;
   color: rgba(233, 28, 36, 1);
-
-  line-height: 40px;
-  letter-spacing: 0%;
+  line-height: 30px;
   text-transform: capitalize;
 }
 .why-choose-us-description {
-  font-family: Montserrat;
+  
   font-weight: 400;
   font-style: Regular;
-  font-size: 50px;
-  color: rgba(233, 28, 36, 1);
+  font-size: 40px;
+  color: var(--color-express-write);
 
   line-height: 100%;
   letter-spacing: 0%;
@@ -22,10 +19,10 @@
   text-transform: capitalize;
 }
 .why-choose-us-svg-description {
-  font-family: Montserrat;
+  
   font-weight: 400;
   font-style: Regular;
-  font-size: 35px;
+  font-size: 25px;
   color: rgba(233, 28, 36, 1);
   line-height: 60px;
   letter-spacing: 0%;
@@ -33,7 +30,7 @@
   text-transform: capitalize;
 }
 .why-choose-us-subtitle {
-  font-family: Montserrat;
+  
   font-weight: 700;
   font-style: Bold;
   font-size: 50px;
@@ -43,8 +40,19 @@
   text-align: center;
   text-transform: capitalize;
 }
+
+.why-choose-us-h4 {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 35px;
+  color: var(--color-express-header);
+  line-height: 60px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+}
 .why-choose-us-svg-title-1 {
-  font-family: Montserrat;
+  
   font-weight: 700;
   font-style: Bold;
   font-size: 50px;
@@ -76,7 +84,7 @@
   border-radius: 15px;
   border: 1px solid rgba(27, 53, 145, 1);
   background: rgba(41, 56, 142, 1);
-  font-family: Montserrat;
+  
   font-weight: 700;
   font-style: Bold;
   font-size: 30px;

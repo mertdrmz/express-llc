@@ -1,5 +1,4 @@
 .hero-title {
-  font-family: Montserrat;
   font-weight: 400;
   font-style: Regular;
   font-size: 60px;
@@ -23,7 +22,6 @@
 }
 
 .hero-subtitle {
-  font-family: Montserrat;
   font-weight: 400;
   font-style: Regular;
   font-size: 25px;

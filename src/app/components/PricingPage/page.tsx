@@ -65,11 +65,11 @@ const packages = [
 ];
 const PricingPage = () => {
   return (
-    <div className="container items-center justify-center mt-20">
+    <div className="container min-h-screen flex flex-col items-center justify-center py-20">
       <div className="flex items-center justify-center">
         <h2 className="pricing-page-title">Pricing Packages</h2>
       </div>
-      <div className="flex flex-row items-center gap-4 max-w-full mt-20 justify-center">
+      <div className="flex flex-row items-stretch gap-4 max-w-full mt-20 justify-center">
         {packages.map((packages) => (
           <div
             className="pricing-cards flex flex-col items-center justify-center p-4 text-center"
@@ -77,7 +77,7 @@ const PricingPage = () => {
           >
             <h3 className="pricing-title">{packages.title}</h3>
             <p className="pricing-title-description">{packages.titleDescription}</p>
-            <p className="pricing-price">{packages.priceBox} <br /><span className="pricing-price-state-fee">State Fee</span></p>
+            <p className="pricing-price">{packages.priceBox}<span className="pricing-price-state-fee">State Fee</span></p>
             <p className="pricing-description">{packages.description}</p>
             <ul className="pricing-description-list">
               {packages.descriptionList.map((item) => (
