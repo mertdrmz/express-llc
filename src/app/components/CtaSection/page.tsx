@@ -245,7 +245,7 @@ function CtaSection() {
       <div className="py-16 ">
         <div className="container">
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-11">
             {ctaBox.map((box, index) => (
               <div
                 key={index}
