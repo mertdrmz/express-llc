@@ -238,7 +238,7 @@ const ctaBox = [
   },
 ];
 
-function ctaSection() {
+function CtaSection() {
   return (
     <>
       <style dangerouslySetInnerHTML={{ __html: styles }} />
@@ -260,10 +260,10 @@ function ctaSection() {
 
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="cta-button bg-white border-2 border-[#29388E] text-[#29388E] hover:bg-[#29388E] hover:text-white transition-colors duration-300">
+            <button role="button" className="cta-button bg-white border-2 border-[#29388E] text-[#29388E] hover:bg-[#29388E] hover:text-white transition-colors duration-300">
               <span className="cta-button-text">Start My Company Now</span>
             </button>
-            <button className="cta-button bg-[#FF1520] text-white hover:bg-red-700 transition-colors duration-300">
+            <button className="cta-button bg-[#FF1520] text-white hover:bg-red-700 transition-colors duration-200">
               <span className="cta-button-text">Transfer My Company</span>
             </button>
           </div>
@@ -273,4 +273,4 @@ function ctaSection() {
   );
 }
 
-export default ctaSection;
+export default CtaSection;

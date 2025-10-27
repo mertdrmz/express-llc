@@ -39,7 +39,7 @@ const whyChooseUsFeatures = [
   },
 ];
 
-function whyChooseUs() {
+function WhyChooseUs() {
   return (
     <div className="container text-center py-32">
       <div>
@@ -75,4 +75,4 @@ function whyChooseUs() {
   );
 }
 
-export default whyChooseUs;
+export default WhyChooseUs;
